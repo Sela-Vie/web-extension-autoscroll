@@ -1,0 +1,46 @@
+/*PHONE(Default) stylesheet__________________________*/
+@media only screen and (min-width: 1px){
+   
+    *{
+        font-family: Courier, arial;
+        color: rgba(255,255,255,255);
+        font-size: 3;
+    }
+    body{
+        background-color: rgba(0,0,0,255);
+    }
+    header{
+        padding: 10vh 10VW 10px 10vw;   /* N E S W */
+    }
+    main{
+        padding: 10px 30vw 10px 10vw;   /* N E S W */
+    }
+    .box_grey{
+        background-color: rgba(40,40,40,255);
+        padding: 10px 10px 10px 30px;   /* N E S W */
+        border-radius: 15px;
+    }
+    p{
+        padding: 10px 0 0 0;
+        font-family: Courier, arial; 
+        /* just so that theres no error */
+    }
+    .javaStuff{
+        text-align: center;
+    }
+    input{
+        padding: 10px 50px 10px 10px;
+        color: rgba(0,0,0,255);
+    }
+
+    button{
+        background-color: rgba(196,196,196,255);
+        padding: 10px 10px 10px 30px;   /* N E S W */
+        border-radius: 15px;
+    }
+}
+
+/*PC stylesheet______________________________________*/
+@media only screen and (min-width: 1000px){
+
+}

@@ -1,12 +1,16 @@
 {
     "manifest_version": 3,
     "name": "web-extension-autoscroll",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "an autoscroll extension for pinterest in the background",
-    "content_scripts":[
-        {
-            "matches":["https://uk.pinterest.com/*"],
-            "js":["scroll.js"]
-        }
+    
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permissions":[
+        "scripting"
+    ],
+    "host_permissions":[
+        "https://uk.pinterest.com/*"
     ]
 }
