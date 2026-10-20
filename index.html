@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web-extension-autoscroll-pinterest</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>web-extension-autoscroll-pinterest</title>
 </head>
 <body>
-    <label for="scroll_speed_horizontal">scroll_speed_horizontal</label>
-    <input 
-        type="number" 
-        id="scroll_speed_horizontal"
-        name="fname" 
-        value=0>
-    
-    
-    <label for="scroll_speed_vertical">scroll_speed_vertical</label>
-    <input 
-        type="number" 
-        id="scroll_speed_vertical"
-        name="fname" 
-        value=1>
-    
-    
-    <label for="scroll_interval_ms">scroll_interval_ms</label>
-    <input 
-        type="number" 
-        id="scroll_interval_ms"
-        name="fname" 
-        value=100>
-    
-    
-    <button 
-        id="toggle_on_off" >
-        toggle_on_off</button>
+	<form action="">
+		<label for="scroll_speed_horizontal">scroll_speed_horizontal</label>
+		<input
+			type="number"
+			id="scroll_speed_horizontal"
+			name="fname">
+		<label for="scroll_speed_vertical">scroll_speed_vertical</label>
+		<input
+			type="number"
+			id="scroll_speed_vertical"
+			name="fname">
+		<label for="scroll_interval_ms">scroll_interval_ms</label>
+		<input
+			type="number"
+			id="scroll_interval_ms"
+			name="fname">
+	</form>
+	<button
+		id="toggle_on_off">
+		toggle_on_off</button>
+	<button
+		id="update_values">
+		update</button>
 <script src="index.js"></script>
 </body>
 </html>
